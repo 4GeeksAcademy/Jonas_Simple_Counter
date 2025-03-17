@@ -1,15 +1,20 @@
-.counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    border-radius: 10px;
-  }
-  
-  .digit {
-    font-size: 2rem;
-    min-width: 50px;
+.bigCounter {
+    display: inline-block;
+    margin: auto;
     text-align: center;
+    width: 370px;
+    background: black;
     border-radius: 10px;
-  }
-  
+
+}
+
+.bigCounter div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background: #585757;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}

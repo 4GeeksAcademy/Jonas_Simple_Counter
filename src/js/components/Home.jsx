@@ -25,7 +25,7 @@ class Home extends Component { // estamos creando un nuevo componente llamado Ho
 
   render() { // se encarga de decirle a React cómo debe verse este componente.
     // Convertir los segundos en formato de 4 dígitos
-    const timeString = this.state.seconds.toString().padStart(4, "0"); //  toma el número de segundos y lo convierte en un string
+    const timeString = this.state.seconds.toString().padStart(6, "0"); //  toma el número de segundos y lo convierte en un string
     //le dice que la cadena de texto tenga al menos 4 caracteres". Si el número de segundos tiene menos de 4 dígitos, los completa con ceros al principio.
 
     return (
